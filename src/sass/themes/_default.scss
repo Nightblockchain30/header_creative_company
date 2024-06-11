@@ -1,7 +1,7 @@
-html * {
-    font-family: $roboto-font;
+*{
+    font-family: $primary-font;
 }
- 
-body {
-    overflow-x: hidden;
-} 
+
+body{
+    background-color: $purple;
+}

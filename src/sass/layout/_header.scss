@@ -1,0 +1,24 @@
+.header__container{
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 46px;
+    margin-bottom: 40px;
+    display: flex;
+    gap: 148px;
+    .header__ul{
+        list-style: none;
+        display: flex;
+        gap: 56px;
+        li a.header__ul-contact{
+            margin-left: 678.5px;
+            padding: 16.5px 24.5px;
+            background-color: $purple;
+        }
+        a{
+            text-decoration: none;
+            color: $white;
+            font-weight: 300;
+        }
+
+    }
+}

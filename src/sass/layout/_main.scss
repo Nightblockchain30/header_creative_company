@@ -1,0 +1,30 @@
+.main__container{
+    margin-left: 160px;
+    margin-bottom: 81px;
+    color: $white;
+    font-size: 24px;
+    .main__p-before{
+        font-size: 24px;
+        font-weight: 200;
+    }
+    .main__h1{
+        font-size: 64px;
+        line-height: 80px;
+        margin-top: 16px;
+        margin-bottom: 32px;
+    }
+    .main__p-after{
+        font-size: 24px;
+        font-weight: 200;
+        margin-bottom: 54px;
+    }
+    .main__button{
+        display: inline-flex;
+        align-items: center;
+        background-color: $white;
+        padding: 20px 21px;
+        &-p{
+            color: $black;
+        }
+    }
+}
