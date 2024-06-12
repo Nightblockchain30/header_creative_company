@@ -5,17 +5,20 @@
     justify-content: center;
     gap: 80px;
     min-height: 297px;
-    min-width: 392px;
+    min-width: 1240px;
     position: fixed;
     bottom: 0;
     left: 0;
     .footer__article{
         max-width: 328px;
+        padding-bottom: 60px;
+        padding-top: 60px;
         &-icon{
-            margin-bottom: 38px;
+            margin-bottom: 25px;
         }
         &-h3{
             font-size: 18px;
+            margin-bottom: 8px;
         }
         &-p{
             font-size: 18px;
@@ -23,6 +26,11 @@
         }
     }
     .article1{
-        margin-left:80px;
+        margin-left:40px;
+        padding-left: 40px;
+    }
+    .article3{
+        margin-right:40px;
+        padding-right: 40px;
     }
 }
