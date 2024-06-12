@@ -2,25 +2,37 @@
     margin-left: 160px;
     margin-right: 160px;
     margin-top: 46px;
-    margin-bottom: 47px;
+    margin-bottom: 40px;
     display: flex;
     align-items: center;
-
     gap: 148px;
-    .header__ul{
-        list-style: none;
-        display: flex;
-        gap: 56px;
-        li a.header__ul-contact{
-            margin-left: 678.5px;
-            padding: 16.5px 24.5px;
-            background-color: $purple;
-        }
-        a{
-            text-decoration: none;
-            color: $white;
-            font-weight: 300;
-        }
+    .header__nav{
+        width: 100%;
+        .header__ul{
+            list-style: none;
+            display: flex;
+            gap: 56px;
+            align-items: center;
+            a{
+                text-decoration: none;
+                color: $white;
+                font-weight: 300;
+            }
+            &-contact{
+                padding: 16.5px 24.5px;
+                background-color: $purple;
+                margin-left: auto;
+                color: $white;
+                font-weight: 300;
+            }
+    }
+
+            // a.header__ul-contact{
+            // padding: 16.5px 24.5px;
+            // background-color: $purple;
+            // }
+        
+
 
     }
 }
