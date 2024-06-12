@@ -5,12 +5,42 @@
   box-sizing: border-box;
 }
 
+.footer__container {
+  background-color: #FBFBFB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  min-height: 297px;
+  min-width: 392px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.footer__container .footer__article {
+  max-width: 328px;
+}
+.footer__container .footer__article-icon {
+  margin-bottom: 38px;
+}
+.footer__container .footer__article-h3 {
+  font-size: 18px;
+}
+.footer__container .footer__article-p {
+  font-size: 18px;
+  color: #909090;
+}
+.footer__container .article1 {
+  margin-left: 80px;
+}
+
 .header__container {
   margin-left: 160px;
   margin-right: 160px;
   margin-top: 46px;
-  margin-bottom: 40px;
+  margin-bottom: 47px;
   display: flex;
+  align-items: center;
   gap: 148px;
 }
 .header__container .header__ul {
@@ -32,6 +62,7 @@
 .main__container {
   margin-left: 160px;
   margin-bottom: 81px;
+  margin-top: 80px;
   color: #FBFBFB;
   font-size: 24px;
 }
@@ -44,6 +75,7 @@
   line-height: 80px;
   margin-top: 16px;
   margin-bottom: 32px;
+  font-weight: 600;
 }
 .main__container .main__p-after {
   font-size: 24px;
@@ -58,6 +90,15 @@
 }
 .main__container .main__button-p {
   color: #333333;
+}
+
+body {
+  background-image: url("../img/equipo@2x.jpg");
+  background-position: right top;
+  background-position-x: 1100px;
+  background-position-y: -35px;
+  background-repeat: no-repeat;
+  background-size: 840px;
 }
 
 * {
