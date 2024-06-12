@@ -17,6 +17,11 @@
                 text-decoration: none;
                 color: $white;
                 font-weight: 300;
+                &:hover{
+                    cursor: pointer;
+                    color: $black;
+                    font-weight: 500;
+                }
             }
             &-contact{
                 padding: 16.5px 24.5px;
@@ -24,6 +29,10 @@
                 margin-left: auto;
                 color: $white;
                 font-weight: 300;
+                &:hover{
+                    cursor: pointer;
+                    background-color: $black;
+                }
             }
     }
 
@@ -34,5 +43,12 @@
         
 
 
+    }
+
+    .header__logo{
+        transition: 1.5s;
+        &:hover{
+            transform: scale(1.2);
+        }
     }
 }

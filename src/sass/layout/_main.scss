@@ -29,5 +29,10 @@
             color: $black;
             font-weight: 500;
         }
+        &:hover{
+            color: $white;
+            cursor: pointer;
+            transform: skewY(2deg);
+        }
     }
 }
