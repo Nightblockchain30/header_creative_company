@@ -1,4 +1,4 @@
-.footer__container{
+.footer__container {
     background-color: $white;
     display: flex;
     align-items: center;
@@ -9,28 +9,43 @@
     position: fixed;
     bottom: 0;
     left: 0;
-    .footer__article{
+
+    .footer__article {
         max-width: 328px;
         padding-bottom: 60px;
         padding-top: 60px;
-        &-icon{
-            margin-bottom: 25px;
+
+        &:hover {
+            transform: scale(1.1);
+            cursor: pointer;
         }
-        &-h3{
+
+        &-icon {
+            margin-bottom: 25px;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        &-h3 {
             font-size: 18px;
             margin-bottom: 8px;
         }
-        &-p{
+
+        &-p {
             font-size: 18px;
             color: $grey;
         }
     }
-    .article1{
-        margin-left:40px;
+
+    .article1 {
+        margin-left: 40px;
         padding-left: 40px;
     }
-    .article3{
-        margin-right:40px;
+
+    .article3 {
+        margin-right: 40px;
         padding-right: 40px;
     }
 }

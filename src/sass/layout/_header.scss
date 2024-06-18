@@ -1,4 +1,4 @@
-.header__container{
+.header__container {
     margin-left: 160px;
     margin-right: 160px;
     margin-top: 46px;
@@ -6,48 +6,61 @@
     display: flex;
     align-items: center;
     gap: 148px;
-    .header__nav{
+
+    .header__nav {
         width: 100%;
-        .header__ul{
+
+        .header__ul {
             list-style: none;
             display: flex;
             gap: 56px;
             align-items: center;
-            a{
-                text-decoration: none;
-                color: $white;
-                font-weight: 300;
-                &:hover{
-                    cursor: pointer;
-                    color: $black;
-                    font-weight: 500;
-                }
-            }
-            &-contact{
+
+            &-contact {
                 padding: 16.5px 24.5px;
                 background-color: $purple;
                 margin-left: auto;
                 color: $white;
                 font-weight: 300;
-                &:hover{
+
+                &:hover {
                     cursor: pointer;
                     background-color: $black;
+                    transform: scale(1.1);
+                }
+
+                &:active {
+                    cursor: pointer;
+                    background-color: $purple;
                 }
             }
+
+            a {
+                text-decoration: none;
+                color: $white;
+                font-weight: 300;
+
+                &:hover {
+                    cursor: pointer;
+                    color: $black;
+                    font-weight: 500;
+                }
+
+                &:active {
+                    cursor: pointer;
+                    color: $white;
+                    font-weight: 300;
+                }
+            }
+
+
+        }
     }
 
-            // a.header__ul-contact{
-            // padding: 16.5px 24.5px;
-            // background-color: $purple;
-            // }
-        
-
-
-    }
-
-    .header__logo{
+    .header__logo {
         transition: 1.5s;
-        &:hover{
+
+        &:hover {
             transform: scale(1.2);
         }
     }

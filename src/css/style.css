@@ -22,8 +22,15 @@
   padding-bottom: 60px;
   padding-top: 60px;
 }
+.footer__container .footer__article:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
 .footer__container .footer__article-icon {
   margin-bottom: 25px;
+}
+.footer__container .footer__article-icon:hover {
+  transform: scale(1.1);
 }
 .footer__container .footer__article-h3 {
   font-size: 18px;
@@ -60,16 +67,6 @@
   gap: 56px;
   align-items: center;
 }
-.header__container .header__nav .header__ul a {
-  text-decoration: none;
-  color: #FBFBFB;
-  font-weight: 300;
-}
-.header__container .header__nav .header__ul a:hover {
-  cursor: pointer;
-  color: #333333;
-  font-weight: 500;
-}
 .header__container .header__nav .header__ul-contact {
   padding: 16.5px 24.5px;
   background-color: #515DEF;
@@ -80,6 +77,26 @@
 .header__container .header__nav .header__ul-contact:hover {
   cursor: pointer;
   background-color: #333333;
+  transform: scale(1.1);
+}
+.header__container .header__nav .header__ul-contact:active {
+  cursor: pointer;
+  background-color: #515DEF;
+}
+.header__container .header__nav .header__ul a {
+  text-decoration: none;
+  color: #FBFBFB;
+  font-weight: 300;
+}
+.header__container .header__nav .header__ul a:hover {
+  cursor: pointer;
+  color: #333333;
+  font-weight: 500;
+}
+.header__container .header__nav .header__ul a:active {
+  cursor: pointer;
+  color: #FBFBFB;
+  font-weight: 300;
 }
 .header__container .header__logo {
   transition: 1.5s;
@@ -125,6 +142,10 @@
   color: #FBFBFB;
   cursor: pointer;
   transform: skewY(2deg);
+}
+.main__container .main__button:active {
+  color: #333333;
+  background-color: white;
 }
 
 body {

@@ -1,38 +1,49 @@
-.main__container{
+.main__container {
     margin-left: 160px;
     margin-bottom: 81px;
     margin-top: 80px;
     color: $white;
     font-size: 24px;
-    .main__p-before{
+
+    .main__p-before {
         font-size: 24px;
         font-weight: 200;
     }
-    .main__h1{
+
+    .main__h1 {
         font-size: 64px;
         line-height: 80px;
         margin-top: 16px;
         margin-bottom: 32px;
         font-weight: 600;
     }
-    .main__p-after{
+
+    .main__p-after {
         font-size: 24px;
         font-weight: 200;
         margin-bottom: 54px;
     }
-    .main__button{
+
+    .main__button {
         display: inline-flex;
         align-items: center;
         background-color: $white;
         padding: 20px 21px;
-        &-p{
+
+        &-p {
             color: $black;
             font-weight: 500;
         }
-        &:hover{
+
+        &:hover {
             color: $white;
             cursor: pointer;
             transform: skewY(2deg);
+        }
+
+        &:active {
+            color: $black;
+            background-color: white;
         }
     }
 }
